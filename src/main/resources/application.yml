@@ -1,0 +1,16 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: PAYMENT_SERVICE
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
